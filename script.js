@@ -18,7 +18,7 @@ let choices_object = {
         'scissors': 'draw'
     }
 }
-
+//Buttons will call this function
 function checker(input){
     var choices = ["rock", "paper", "scissors"];
     var num = Math.floor(Math.random()*choices.length);
